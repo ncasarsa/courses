@@ -20,9 +20,7 @@
             <p>https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/</p>
          
          <div>
-            <head>INGREDIENTS</head>
-
-         <list><item cert="high" n="4" xml:space="default">4 oz (1 box) unsweetened chocolate</item>         
+            <head>INGREDIENTS</head><head>4 oz (1 box) unsweetened chocolate</head><list>         
          <item cert="high" n="0.66" xml:space="default">⅔ cup butter</item>
          <item cert="high" n="1.33" xml:space="default">1 ⅓ cup all purpose flour</item>         
          <item cert="high" n="1" xml:space="default">1 teaspoon baking powder</item>         
