@@ -22,13 +22,13 @@
          <div>
             <head>INGREDIENTS</head><head/><list>
          <item cert="high" xml:space="default"> <measure cert="high" unit="Pa" xml:space="default" quantity="4">4 oz (1 box)</measure> unsweetened chocolate</item>
-         <item cert="high" xml:space="default"> <objectName>2/3 cup butter</objectName> </item>
-         <item cert="high" xml:space="default"><objectName>1 ⅓ cup all purpose flour</objectName></item>         
+         <item cert="high" xml:space="default"> <objectName cert="high" evidence="internal" full="yes" instant="unknown" type="wet goods" xml:space="default">2/3 cup butter</objectName> </item>
+         <item cert="high" xml:space="default"><objectName cert="high" evidence="internal" full="yes" instant="unknown" type="dry goods" xml:space="default">1 ⅓ cup all purpose flour</objectName></item>         
          <item cert="high" xml:space="default"><objectName>1 teaspoon baking powder</objectName></item>         
          <item cert="high" xml:space="default"><objectName>½ teaspoon salt</objectName></item>         
-         <item cert="high" xml:space="default">4 eggs</item>         
-         <item cert="high" xml:space="default">2 cups white sugar</item>         
-         <item cert="high" xml:space="default">2 teaspoon vanilla</item></list>
+         <item cert="high" xml:space="default"><objectName>4 eggs</objectName></item>         
+         <item cert="high" xml:space="default"><objectName>2 cups white sugar</objectName></item>         
+         <item cert="high" xml:space="default"><objectName>2 teaspoon vanilla</objectName></item></list>
          </div>
          
          <div>
