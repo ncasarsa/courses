@@ -21,7 +21,7 @@
          
          <div>
             <head>INGREDIENTS</head><head/><list>
-         <item cert="high" xml:space="default"> <measure cert="high" quantity="4 oz" unit="Pa" xml:space="default">4 oz (1 box)</measure> unsweetened chocolate</item>
+         <item cert="high" xml:space="default"> <measure cert="high" unit="Pa" xml:space="default" quantity="4">4 oz (1 box)</measure> unsweetened chocolate</item>
          <item cert="high" xml:space="default"> 2/3 cup butter </item>
          <item cert="high" xml:space="default">1 ⅓ cup all purpose flour</item>         
          <item cert="high" xml:space="default">1 teaspoon baking powder</item>         
