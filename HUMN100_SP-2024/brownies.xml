@@ -21,7 +21,7 @@
          
          <div>
             <head>INGREDIENTS</head><head/><list>
-         <item cert="high" xml:space="default"> 4 oz (1 box) unsweetened chocolate</item>
+         <item cert="high" xml:space="default"> <measure cert="high" quantity="4 oz" unit="Pa" xml:space="default">4 oz (1 box)</measure> unsweetened chocolate</item>
          <item cert="high" xml:space="default"> 2/3 cup butter </item>
          <item cert="high" xml:space="default">1 ⅓ cup all purpose flour</item>         
          <item cert="high" xml:space="default">1 teaspoon baking powder</item>         
@@ -33,16 +33,14 @@
          
          <div>
             <head>DIRECTIONS</head>
-         <list><item>Preheat oven to 350</item>.
-         <item>Grease a 9×13″ pan with butter or cooking spray.</item>
-         <item>Make sure oven rack is in the middle of the oven</item>.<item> In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler)</item>. <item>Allow to cool slightly</item>.
-         <item>Measure flour, salt, and baking powder into another small bowl</item>.
-         In larger mixing bowl, beat eggs thoroughly. A whisk is fine.
-         Gradually add sugar.
-         Blend chocolate mixture and vanilla into egg/sugar mixture.
-         Add flour mixture, stir well.
-         Spread in the greased 9×13″ pan and bake for 25-30 minutes.
-         Cool and cut into 24 squares.</list>
+         <list><item>Preheat oven to 350</item>
+         <item>Grease a 9×13″ pan with butter or cooking spray</item>
+         <item>Make sure oven rack is in the middle of the oven</item>
+         <item> In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler)</item> <item>Allow to cool slightly</item>
+         <item>Measure flour, salt, and baking powder into another small bowl</item><item> In larger mixing bowl, beat eggs thoroughly. A whisk is fine. Gradually add sugar Blend chocolate mixture and vanilla into egg/sugar mixture</item>
+         <item>Add flour mixture, stir well</item>
+         <item>Spread in the greased 9×13″ pan and bake for 25-30 minutes</item>
+         <item>Cool and cut into 24 squares</item></list>
          </div>
       </body>
   </text>
