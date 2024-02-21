@@ -20,20 +20,21 @@
             <p>https://thestoriedrecipe.com/classic-bakers-chocolate-fudgy-brownie-recipe/</p>
          
          <div>
-            <head>INGREDIENTS</head><head>4 oz (1 box) unsweetened chocolate</head><list>         
-         <item cert="high" n="0.66" xml:space="default">⅔ cup butter</item>
-         <item cert="high" n="1.33" xml:space="default">1 ⅓ cup all purpose flour</item>         
-         <item cert="high" n="1" xml:space="default">1 teaspoon baking powder</item>         
-         <item cert="high" n="0.5" xml:space="default">½ teaspoon salt</item>         
-         <item cert="high" n="4" xml:space="default">4 eggs</item>         
-         <item cert="high" n="2" xml:space="default">2 cups white sugar</item>         
-         <item cert="high" n="2" xml:space="default">2 teaspoon vanilla</item></list>
+            <head>INGREDIENTS</head><head/><list>
+         <item cert="high" xml:space="default"> 4 oz (1 box) unsweetened chocolate</item>
+         <item cert="high" xml:space="default"> 2/3 cup butter </item>
+         <item cert="high" xml:space="default">1 ⅓ cup all purpose flour</item>         
+         <item cert="high" xml:space="default">1 teaspoon baking powder</item>         
+         <item cert="high" xml:space="default">½ teaspoon salt</item>         
+         <item cert="high" xml:space="default">4 eggs</item>         
+         <item cert="high" xml:space="default">2 cups white sugar</item>         
+         <item cert="high" xml:space="default">2 teaspoon vanilla</item></list>
          </div>
          
          <div>
             <head>DIRECTIONS</head>
-         <list>Preheat oven to 350.
-         Grease a 9×13″ pan with butter or cooking spray.
+         <list><item>Preheat oven to 350</item>.
+         <item>Grease a 9×13″ pan with butter or cooking spray.</item>
          Make sure oven rack is in the middle of the oven.
          In small microwave safe bowl, melt butter and chocolate in microwave (or over double boiler). Allow to cool slightly.
          Measure flour, salt, and baking powder into another small bowl.
