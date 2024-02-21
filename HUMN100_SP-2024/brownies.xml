@@ -22,10 +22,10 @@
          <div>
             <head>INGREDIENTS</head><head/><list>
          <item cert="high" xml:space="default"> <measure cert="high" unit="Pa" xml:space="default" quantity="4">4 oz (1 box)</measure> unsweetened chocolate</item>
-         <item cert="high" xml:space="default"> 2/3 cup butter </item>
-         <item cert="high" xml:space="default">1 ⅓ cup all purpose flour</item>         
-         <item cert="high" xml:space="default">1 teaspoon baking powder</item>         
-         <item cert="high" xml:space="default">½ teaspoon salt</item>         
+         <item cert="high" xml:space="default"> <objectName>2/3 cup butter</objectName> </item>
+         <item cert="high" xml:space="default"><objectName>1 ⅓ cup all purpose flour</objectName></item>         
+         <item cert="high" xml:space="default"><objectName>1 teaspoon baking powder</objectName></item>         
+         <item cert="high" xml:space="default"><objectName>½ teaspoon salt</objectName></item>         
          <item cert="high" xml:space="default">4 eggs</item>         
          <item cert="high" xml:space="default">2 cups white sugar</item>         
          <item cert="high" xml:space="default">2 teaspoon vanilla</item></list>
@@ -40,7 +40,7 @@
          <item><eventName>Measure <objectName>flour, salt, and baking powder</objectName> into <objectName>another small bowl</objectName></eventName></item><item> <eventName>In <objectName>larger mixing bowl,</objectName> beat <objectName>eggs </objectName>thoroughly. A whisk is fine. Gradually add <objectName>sugar</objectName> Blend<objectName> chocolate mixture and vanilla into egg/sugar mixture</objectName></eventName></item>
          <item><eventName>Add <objectName>flour mixture</objectName>, stir well</eventName></item>
          <item><eventName>Spread in the greased <objectName>9×13″ pan</objectName> and bake for 25-30 minutes</eventName></item>
-         <item>Cool and cut into 24 squares</item></list>
+         <item><eventName>Cool and cut into 24 squares</eventName></item></list>
          </div>
       </body>
   </text>
