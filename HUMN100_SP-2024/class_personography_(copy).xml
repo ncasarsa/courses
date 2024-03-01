@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+      
+
+   <text>
+      <body>
+         <div><listPerson><person><persName>Nathan Casarsa </persName><birth><date>10/31/2003</date><placeName> Buffalo, NY </placeName></birth><occupation> Computer Science &amp; Engineering Major, Math Minor ACM club baseball</occupation></person></listPerson><p>I have a twin brother</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName>Nikita Bityutskiy </persName><birth><date>10/09/2003</date> <placeName> Tashkent, Uzebekistan</placeName> </birth><occupation> Computer Science &amp; Engineering Major, American Politics Minor, Swim team</occupation></person></listPerson><p>I wanted to play baseball, but screwed up my shoulder</p>
+         </div>
+         <div>
+            <listPerson>
+               <person>
+                  <persName>Zach Blumenfeld</persName><birth><date> 02/02/2005</date><placeName> Doylestown, PA </placeName></birth><occupation>Computer Science &amp; Engineering Major</occupation></person></listPerson><p>I am also left handed</p>
+         </div>
+         <div><listPerson><person><persName>Miguel Camacho</persName><birth><date> 12/13/2002</date> <placeName>Bogota, Colombia </placeName></birth><occupation>Creative Writing, Comparitive &amp; Digital Humanities Major, Rock climbing, CW club, FilmClub, LACOS, Cooking club</occupation>
+                  <affiliation>Arts Merit Scholar</affiliation>
+               </person>
+            </listPerson>
+            <listRelation>
+               <relation name="#dkj004">
+                  <desc/>
+               </relation>
+            </listRelation>
+            <p>I was a competitive fencer</p>
+         </div>
+         <div><listPerson><person><birth><date>Junbo 07/12/2005 Guangdong, China </date></birth><occupation>Computer Science Engineering Major, cycling E-sports, frisbee</occupation></person></listPerson><p>I am a music producer</p>
+         </div>
+         <div><listPerson><person><birth><date>Jackson 03/09/2005 Washington D.C. </date></birth><occupation>Undecided Major, Crew</occupation></person></listPerson><p>I have 2 dogs and a cat</p>
+         </div>
+         <div><listPerson><person><birth><date>Abby 10/08/2004 Ridgewood, NJ </date></birth><occupation>Economics and Political Science Major, Club Basketball</occupation></person></listPerson><p>I'm going to Scotland in May</p>
+         </div>
+         <div><listPerson><person><birth><date>Dylan 06/01/2004 Indio, California </date></birth><occupation>Computer Science Major, Volleyball, ACM, Tea club  </occupation> <affiliation>Sigma Alpha Epsilon </affiliation></person></listPerson><p>I have 15 cats</p>
+         </div>
+         <div><listPerson><person><birth><date>Jousha 02/20/2004 Englewood, NJ </date></birth><occupation>Computer Science Major, Korean Cultural Association</occupation> <affiliation>OF</affiliation>
+               </person>
+            </listPerson>
+            <p/>
+         </div>
+         <div><listPerson><person><birth><date>Leo 11/25/2003 Sayerville, NY </date></birth><occupation>Computer Science Major, ACM, Active Minds </occupation></person></listPerson><p>I have a metal rod screwed into my right arm</p>
+         </div>
+         <div><listPerson><person><birth><date>Erin 02/26/2005 Newton, MA </date></birth><occupation>Marketing Major, Core Marketing, ACS </occupation></person></listPerson><p>I'm left handed</p>
+         </div>
+         <div><listPerson><person><birth><date>Peyton 08/21/2005 Abu Dhabi, UAE </date></birth><occupation>Undeclared Major,</occupation> <affiliation>DSAC </affiliation></person></listPerson><p/>
+         </div>
+         <div><listPerson><person><birth><date>Claire 03/16 </date><placeName>Charlottesville, VA</placeName>
+                  </birth>
+                  <occupation>Engish Major, Computer Science &amp; Art History Minor</occupation></person></listPerson><p>I have color synesthesia and a rambunctious cat</p></div>
+         <div><listPerson><person><birth><date>Dr. J Englewood Cliffs, NJ </date></birth><occupation>English &amp; History Major, Theatre &amp; Anthroplogy Minor, Delta Gamma, </occupation> <affiliation>CSDH, Renaissance Society of America </affiliation></person></listPerson><p>I'm ambidextrous; my favorite color(s) is/are blue(s); I hate lima beans and egg salad</p>
+         </div>
+      </body>
+   </text>
+</TEI>
