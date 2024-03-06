@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader><fileDesc><titleStmt><title>Title</title></titleStmt><publicationStmt><p>Publication Information</p></publicationStmt><sourceDesc><p>Information about the source</p></sourceDesc></fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+      
+   
+   <text>
+      <body>
+         <div>
+            <head/>
+            <lg>
+               <l>I used to rule the world</l>
+                  <l>Seas would rise when I gave the word</l>
+                  <l>Now in the morning, I sleep alone</l>
+                  <l>Sweep the streets I used to own</l>
+            </lg>
+            <lg>
+               <l>I used to roll the dice</l>
+                  <l>Feel the fear in my enemy's eyes</l>
+                  <l>Listen as the crowd would sing</l>
+                  <l>"Now the old king is dead, long live the king"</l>
+                  <l>One minute, I held the key</l>
+                  <l>Next, the walls were closed on me</l>
+                  <l>And I discovered that my castles stand</l>
+                  <l>Upon pillars of salt and pillars of sand</l>
+            </lg>
+            <lg>
+               <l>I hear Jerusalem bells a-ringin'</l>
+                  <l>Roman cavalry choirs are singin'</l>
+                  <l>Be my mirror, my sword and shield</l>
+                  <l>My missionaries in a foreign field</l>
+                  <l>For some reason, I can't explain</l>
+                  <l>Once you'd gone, there was never</l>
+                  <l>Never an honest word</l>
+                  <l>And that was when I ruled the world</l>
+            </lg>
+            <lg>
+               <l>It was a wicked and wild wind</l>
+                  <l>Blew down the doors to let me in</l>
+                  <l>Shattered windows and the sound of drums</l>
+                  <l>People couldn't believe what I'd become</l>
+                  <l>Revolutionaries wait</l>
+                  <l>For my head on a silver plate</l>
+                  <l>Just a puppet on a lonely string (Mmm, mmm)</l>
+                  <l>Aw, who would ever wanna be king?</l>
+            </lg>
+            <lg>
+               <l>I hear Jerusalem bells a-ringin'</l>
+                  <l>Roman cavalry choirs are singin'</l>
+                  <l>Be my mirror, my sword and shield</l>
+                  <l>My missionaries in a foreign field</l>
+                  <l>For some reason, I can't explain</l>
+                  <l>Once you'd gone, there was never</l>
+                  <l>Never an honest word</l>
+                  <l>And that was when I ruled the world</l>
+            </lg>            
+         </div>
+         <div>
+            <head/>
+            <lg>
+               <l>Come up to meet you, tell you I'm sorry</l>
+                  <l>You don't know how lovely you are</l>
+                  <l>I had to find you, tell you I need you</l>
+                  <l>Tell you I set you apart</l>
+                  <l>Tell me your secrets and ask me your questions</l>
+                  <l>Oh, let's go back to the start</l>
+                  <l>Running in circles, coming up tails</l>
+                  <l>Heads on a science apart</l>
+                  <l>Nobody said it was easy</l>
+                  <l>It's such a shame for us to part</l>
+                  <l>Nobody said it was easy</l>
+                  <l>No one ever said it would be this hard</l>
+                  <l>Oh, take me back to the start</l>
+                  <l>I was just guessing at numbers and figures</l>
+                  <l>Pulling the puzzles apart</l>
+                  <l>Questions of science, science and progress</l>
+                  <l>Do not speak as loud as my heart</l>
+                  <l>But tell me you love me, come back and haunt me</l>
+                  <l>Oh and I rush to the start</l>
+                  <l>Running in circles, chasing our tails</l>
+                  <l>Coming back as we are</l>
+                  <l>Nobody said it was easy</l>
+                  <l>Oh, it's such a shame for us to part</l>
+                  <l>Nobody said it was easy</l>
+                  <l>No one ever said it would be so hard</l>
+                  <l>I'm going back to the start</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
