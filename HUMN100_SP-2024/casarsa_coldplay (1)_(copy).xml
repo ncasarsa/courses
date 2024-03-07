@@ -1424,6 +1424,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307141430165",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-07T19:14:30.165Z",
+	"dcterms:modified": "2024-03-07T19:14:30.165Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307141430165#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307141430165#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[5]/l[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q33923",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -1473,7 +1552,7 @@
                   <l>Be my mirror, my sword and shield</l>
                   <l>My missionaries in a foreign field</l>
                   <l>For some reason, I can't explain</l>
-                  <l>I know Saint Peter won't call my name<note type="scholarNote">Another Biblical reference, as Saint Peter is said to be at the gates to Heaven, who lets people in. The narrator recognizes that his life has been one of greed, dishonesty and violence, which he believes will prevent him from going to Heaven.</note></l>
+                  <l>I know <persName key="Peter" ref="http://www.wikidata.org/entity/Q33923" type="real">Saint Peter</persName> won't call my name<note type="scholarNote">Another Biblical reference, as Saint Peter is said to be at the gates to Heaven, who lets people in. The narrator recognizes that his life has been one of greed, dishonesty and violence, which he believes will prevent him from going to Heaven.</note></l>
                   <l>Never an honest word</l>
                   <l>But that was when I ruled the world</l>
             </lg>            
