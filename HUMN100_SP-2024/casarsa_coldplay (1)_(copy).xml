@@ -430,7 +430,6 @@
 	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307114007375",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-07T16:40:07.375Z",
-	"dcterms:modified": "2024-03-07T16:40:07.375Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ncasarsa",
 		"@type": [
@@ -457,7 +456,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307114007375#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[2]/l[4]/note"
+			"rdf:value": "TEI/text/body/div/lg[2]/l[3]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -696,7 +695,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307115305196#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[2]/l[5]/note"
+			"rdf:value": "TEI/text/body/div/lg[2]/l[4]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -775,7 +774,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307115713840#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[2]/l[8]/note"
+			"rdf:value": "TEI/text/body/div/lg[2]/l[7]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1123,9 +1122,7 @@
             </lg>
             <lg>
                <l>I used to roll the dice</l>
-                  <l>Feel the fear in my enemy's eyes<note type="scholarNote">Does not refer to real dice, stating that he used to take risks, that would make him feared by many</note></l>
-                  <l>Listen as the crowd would sing</l>
-                  <l>"Now the old king is dead, long live the king"<note type="scholarNote">In reference to old Europe when Monarchy's ruled, the narrator reminisces his time in power</note></l>
+                  <l>Feel the fear in my enemy's eyes</l><l><l>Listen as the crowd would sing</l><l>"Now the old king is dead, long live the king"</l><note type="scholarNote">In reference to old Europe when Monarchy's ruled, the narrator reminisces his time in power</note></l>
                   <l>One minute, I held the key<note type="scholarNote">Shows that the narrator once held, "the key to the city", representing his power. Though to him the time flew by, as he references, that he had it for one minute.</note></l>
                   <l>Next, the walls were closed on me</l>
                   <l>And I discovered that my castles stand</l>
