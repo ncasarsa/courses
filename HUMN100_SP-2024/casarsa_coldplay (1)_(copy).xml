@@ -2056,6 +2056,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307175151832",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-07T22:51:51.832Z",
+	"dcterms:modified": "2024-03-07T22:51:51.832Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307175151832#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307175151832#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/lg/l[20]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Again they make the same mistakes and can make not progress in their relationship. As they, \"chase their tails\", but come up short everytime. This references an animal chasing their tail, but they never can catch it."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -2132,7 +2211,7 @@
                   <l>Do not speak as loud as my heart<note type="scholarNote">Realizes that love is not a science and has to come from a greater feeling. One is not able to calculate the perfect relationship, as it is not a logical thing.</note></l>
                   <l>But tell me you love me, come back and haunt me</l>
                   <l>Oh and I rush to the start</l>
-                  <l>Running in circles, chasing our tails</l>
+                  <l>Running in circles, chasing our tails<note type="scholarNote">Again they make the same mistakes and can make not progress in their relationship. As they, "chase their tails", but come up short everytime. This references an animal chasing their tail, but they never can catch it.</note></l>
                   <l>Coming back as we are</l>
                   <l>Nobody said it was easy</l>
                   <l>Oh, it's such a shame for us to part</l>
