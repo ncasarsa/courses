@@ -2407,7 +2407,7 @@
 	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182403742",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-07T23:24:03.742Z",
-	"dcterms:modified": "2024-03-07T23:24:03.742Z",
+	"dcterms:modified": "2024-03-07T23:25:04.145Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ncasarsa",
 		"@type": [
@@ -2438,7 +2438,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q41746",
 		"dc:format": "text/plain"
 	},
@@ -2541,7 +2545,7 @@
 			<lg>
 				<l>I've been reading books of old</l>
 				<l>The legends and the myths</l>
-				<l><persName key="Achilles" ref="http://www.wikidata.org/entity/Q41746">Achilles</persName> and his gold</l>
+				<l><persName key="Achilles" ref="http://www.wikidata.org/entity/Q41746" type="both">Achilles</persName> and his gold</l>
 				<l>Hercules and his gifts<note type="scholarNote">Referencing the strongest people in old books, in a sense they are perfect humans that everyone looked up to and praised.</note></l>
 				<l>Spider-Man's control</l>
 				<l>And Batman with his fists<note type="scholarNote">Characters in comic books that are human, but also superheros. He uses these four people because they are all humans, that have superhuman qualities. </note></l>
