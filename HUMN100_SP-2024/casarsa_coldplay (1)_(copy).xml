@@ -2135,6 +2135,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307181906213",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-07T23:19:06.213Z",
+	"dcterms:modified": "2024-03-07T23:19:06.213Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307181906213#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307181906213#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/lg/l[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Referencing the strongest people in old books, in a sense they are perfect humans that everyone looked up to and praised."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -2220,6 +2299,75 @@
                   <l>I'm going back to the start</l>
             </lg>
          </div>
+		 <div>
+			<head> Something Just Like This </head>
+			<lg>
+				<l>I've been reading books of old</l>
+				<l>The legends and the myths</l>
+				<l>Achilles and his gold</l>
+				<l>Hercules and his gifts<note type="scholarNote">Referencing the strongest people in old books, in a sense they are perfect humans that everyone looked up to and praised.</note></l>
+				<l>Spider-Man's control</l>
+				<l>And Batman with his fists</l>
+				<l>And clearly I don't see myself upon that list</l>
+				<l>But she said, where'd you wanna go?</l>
+				<l>How much you wanna risk?</l>
+				<l>I'm not lookin' for somebody</l>
+				<l>With some superhuman gifts</l>
+				<l>Some superhero</l>
+				<l>Some fairy-tale bliss</l>
+				<l>Just something I can turn to</l>
+				<l>Somebody I can kiss</l>
+				<l>I want something just like this</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Doo-doo-doo, doo-doo</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Oh, I want something just like this</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Doo-doo-doo, doo-doo</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Oh, I want something just like this</l>
+				<l>I want something just like this</l>
+				<l>I've been reading books of old</l>
+
+				<l>The legends and the myths</l>
+				<l>The testaments they told</l>
+				<l>The moon and its eclipse</l>
+				<l>And Superman unrolls</l>
+				<l>A suit before he lifts</l>
+				<l>But I'm not the kind of person that it fits</l>
+				<l>She said, where'd you wanna go?</l>
+				<l>How much you wanna risk?</l>
+				<l>I'm not lookin' for somebody</l>
+				<l>With some superhuman gifts</l>
+				<l>Some superhero</l>
+				<l>Some fairy-tale bliss</l>	
+				<l>Just something I can turn to</l>
+				<l>Somebody I can miss</l>
+				<l>I want something just like this</l>
+				<l>I want something just like this</l>
+				<l>Oh, I want something just like this</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Doo-doo-doo, doo-doo</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Oh, I want something just like this</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Doo-doo-doo, doo-doo</l>
+				<l>Doo-doo-doo, doo-doo-doo</l>
+				<l>Where'd you wanna go?</l>
+				<l>How much you wanna risk?</l>
+				<l>I'm not lookin' for somebody</l>
+				<l>With some superhuman gifts</l>
+
+				<l>Some superhero</l>
+				<l>Some fairy-tale bliss</l>
+				<l>Just something I can turn to</l>
+				<l>Somebody I can kiss</l>
+				<l>I want something just like this</l>
+				<l>Oh, I want something just like this</l>
+				<l>Oh, I want something just like this</l>
+				<l>Oh, I want something just like this</l>
+			</lg>
+		</div>
       </body>
    </text>
 </TEI>
