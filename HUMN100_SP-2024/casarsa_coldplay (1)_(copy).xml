@@ -950,6 +950,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307121657045",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-07T17:16:57.045Z",
+	"dcterms:modified": "2024-03-07T17:16:57.045Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307121657045#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307121657045#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[3]/l[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The narrator shows that he had great reach in the world imposing his beliefs on others"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -977,7 +1056,7 @@
                <l>I hear <placeName key="Kingdom of Jerusalem" ref="http://www.wikidata.org/entity/Q55502" cert="high">Jerusalem<precision match="@ref" precision="high"/></placeName> bells a-ringin'</l>
                   <l><orgName key="Roman cavalry" ref="http://www.wikidata.org/entity/Q2511811">Roman cavalry choirs</orgName> are singin'<note type="scholarNote">In the narrator downfall he tries to paint himself as someone who is unjustly going through this, comparing himself to Jesus. As Jesus was arrested in Jerusalem, by the Roman army.</note></l>
                   <l>Be my mirror, my sword and shield<note type="scholarNote">The narrator wishes that someone will carry on his legacy, in hopes that he can live vicariously through someone else. The mirror represents the reflection of himself, hoping someone sees themselves as him. The narrator is asking someone to fight for him, when referencing "my sword".  Similarly, he is asking someone to protect his legacy, in referencing to "shield".</note></l>
-                  <l>My missionaries in a foreign field</l>
+                  <l>My missionaries in a foreign field<note type="scholarNote">The narrator shows that he had great reach in the world imposing his beliefs on others</note></l>
                   <l>For some reason, I can't explain</l>
                   <l>Once you'd gone, there was never</l>
                   <l>Never an honest word</l>
