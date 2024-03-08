@@ -2404,10 +2404,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182403742",
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182504145",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T23:24:03.742Z",
-	"dcterms:modified": "2024-03-07T23:25:04.145Z",
+	"dcterms:created": "2024-03-07T23:25:04.145Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ncasarsa",
 		"@type": [
@@ -2418,7 +2417,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182403742#Target",
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182504145#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
@@ -2432,7 +2431,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182403742#Selector",
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?person_annotation_20240307182504145#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/lg/l[3]/persName"
 		}
@@ -3093,6 +3092,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307195612838",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-08T00:56:12.838Z",
+	"dcterms:modified": "2024-03-08T00:56:12.838Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307195612838#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?note_annotation_20240307195612838#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/lg/l/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "translates to mother"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -3223,28 +3301,55 @@
 				<l>Just something I can turn to</l>
 				<l>Somebody I can miss</l>
 				<l>I want something just like this</l>
-				<l>I want something just like this</l>
-				<l>Oh, I want something just like this</l>
-				<l>Doo-doo-doo, doo-doo-doo</l>
-				<l>Doo-doo-doo, doo-doo</l>
-				<l>Doo-doo-doo, doo-doo-doo</l>
-				<l>Oh, I want something just like this</l>
-				<l>Doo-doo-doo, doo-doo-doo</l>
-				<l>Doo-doo-doo, doo-doo</l>
-				<l>Doo-doo-doo, doo-doo-doo</l>
-				<l>Where'd you wanna go?</l>
-				<l>How much you wanna risk?</l>
-				<l>I'm not lookin' for somebody</l>
-				<l>With some superhuman gifts</l>
+			</lg>
+		</div>
+		<div>
+			<head> Adventure of a Lifetime</head>
+			<lg>
+				<l>Turn your magic on, umi<note type="annotation">translates to mother</note> she'd say</l>
+				<l>Everything you want's a dream away</l>
+				<l>We are legends, every day</l>
+				<l>That's what she told him</l>
+				<l>Turn your magic on, to me she'd say</l>
+				<l>Everything you want's a dream away</l>
+				<l>Under this pressure, under this weight</l>
+				<l>We are diamonds</l>
+				<l>Now I feel my heart beating</l>
+				<l>I feel my heart beneath my skin</l>
+				<l>I feel my heart beating</l>
+				<l>Oh, you make me feel</l>
+				<l>Like I'm alive again</l>
+				<l>Alive again</l>
+				<l>Oh, you make me feel</l>
+				<l>Like I'm alive again</l>
+				<l>Said I can't go on, not in this way</l>
+				<l>I'm a dream that died by light of day</l>
 
-				<l>Some superhero</l>
-				<l>Some fairy-tale bliss</l>
-				<l>Just something I can turn to</l>
-				<l>Somebody I can kiss</l>
-				<l>I want something just like this</l>
-				<l>Oh, I want something just like this</l>
-				<l>Oh, I want something just like this</l>
-				<l>Oh, I want something just like this</l>
+				<l>Gonna hold up half the sky and say</l>
+				<l>Only I own me</l>
+				<l>Now I feel my heart beating</l>
+				<l>I feel my heart beneath my skin</l>
+				<l>Oh, I can feel my heart beating</l>
+				<l>'Cause you make me feel</l>
+				<l>Like I'm alive again</l>
+				<l>Alive again</l>
+				<l>Oh, you make me feel</l>
+				<l>Like I'm alive again</l>
+				<l>Turn your magic on, umi she'd say</l>
+				<l>Everything you want's a dream away</l>
+				<l>Under this pressure, under this weight</l>
+				<l>We are diamonds taking shape</l>
+				<l>We are diamonds taking shape</l>
+				<l>(Woo-ooh, woo-ooh)</l>
+				<l>If we've only got this life</l>
+				<l>This adventure, oh then I</l>
+				<l>And if we've only got this life</l>
+				<l>You'll get me through, oh</l>
+				<l>And if we've only got this life</l>
+				<l>And this adventure, oh then I</l>
+				<l>Wanna share it with you</l>
+				<l>With you, with you</l>
+				<l>Sing it, oh, say yeah</l>
 			</lg>
 		</div>
       </body>
