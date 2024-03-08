@@ -4010,7 +4010,7 @@
 				<l>Some superhero</l>
 				<l>Some fairy-tale bliss</l>	
 				<l>Just something I can turn to</l>
-				<l>Somebody I can miss</l>
+				<l><eventName>Somebody I can miss</eventName></l>
 				<l>I want something just like this</l>
 			</lg>
 		</div>
