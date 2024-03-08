@@ -3724,6 +3724,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204339491",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-08T01:43:39.491Z",
+	"dcterms:modified": "2024-03-08T01:43:39.491Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204339491#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204339491#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/lg/l[8]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://dbpedia.org/resource/Diamond",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204445561",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-08T01:44:45.561Z",
+	"dcterms:modified": "2024-03-08T01:44:45.561Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ncasarsa",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Nathan Casarsa"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204445561#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/ncasarsa/courses/main/HUMN100_SP-2024/casarsa_coldplay%20(1)_(copy).xml?rs_annotation_20240307204445561#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/lg/l[3]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q10317226",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
       
    
@@ -3861,12 +4019,12 @@
 			<lg>
 				<l>Turn your magic on, umi<note type="annotation">translates to mother</note> she'd say</l>
 				<l>Everything you want's a dream away<note type="scholarNote">Remembering his mother words of wisdom, most likely misses talking to her</note></l>
-				<l>We are legends, every day</l>
+				<l>We are <rs key="Legends" ref="http://www.wikidata.org/entity/Q10317226">legends</rs>, every day</l>
 				<l>That's what she told him</l>
 				<l>Turn your magic on, to me she'd say</l>
 				<l>Everything you want's a dream away</l>
 				<l>Under this pressure, under this weight</l>
-				<l>We are diamonds<note type="scholarNote">Turning what most people see as a bad thing, such as pressure and stress and turning into a beutiful thing like a diamond. As if you put enough pressure on carbon they will turn into diamonds.</note></l>
+				<l>We are <rs key="Diamond" ref="http://dbpedia.org/resource/Diamond">diamonds</rs><note type="scholarNote">Turning what most people see as a bad thing, such as pressure and stress and turning into a beutiful thing like a diamond. As if you put enough pressure on carbon they will turn into diamonds.</note></l>
 				<l>Now I feel my heart beating</l>
 				<l>I feel my heart beneath my skin</l>
 				<l>I feel my heart beating</l>
